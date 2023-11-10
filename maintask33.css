@@ -1,0 +1,66 @@
+.home{
+    background-image: url(../Desktop/gray-painted-background_53876-94041.avif);
+    background-size: 100% 100%;
+}
+.home .nav{
+ background-color: rgb(10, 10, 9);
+ overflow: auto;
+}
+.home .nav ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+}
+.home .nav ul li{
+    float: right;
+    margin: 15px;
+}
+.home .nav li .logo{
+    width: 50px;
+}
+.home .nav ul li a{
+    color: rgb(58, 99, 58);
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px;
+}
+.home .nav ul li .logo{
+    float: left;
+    text-decoration: none;
+    color: darkblue;
+    width: 150px;
+}
+.home .caption{
+    text-align: center;
+}
+.home .caption h1{
+    margin: 30px 0px;
+    color: rgb(58, 102, 58);
+}
+.home .caption img{
+    margin: 20px 0px;
+    tab-size: inherit;
+    margin: 5px;
+    width: 750px;
+
+
+}
+.home .caption button{
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 10px 0px;
+    width: 20%;
+}
+.home .caption2{
+    text-align: center;
+}
+.parent{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.child{
+    margin: 20px;
+    width: 25%;
+}
